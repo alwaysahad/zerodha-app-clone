@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zerodha-App</title>
+  <link rel="stylesheet" href="./style.css">
+  <script src="./script.js"></script>
+</head>
+<body>
+
+<nav id="nav" style="position: fixed; background-color: white; width: 100%;">
+<div style="display: flex; justify-content: space-between;">
+
+  <div class="navitm" style="cursor: pointer;">
+    <img>
+      <img width="130", src="./sources/logo.svg">
+  </div>
+
+  <div class="navitm" style="font-weight: 20;">
+      <span style="padding-right: 20px;">Signup</span>
+      <span style="padding-right: 20px;">About</span>
+      <span style="padding-right: 20px;">Products</span>
+      <span style="padding-right: 20px;">Pricing</span>
+      <span style="padding-right: 50px;">Support</span>
+
+      <button style="margin-right: 50px;" id="button">Sign up now</button>
+  </div> 
+
+</div>
+<br>
+<hr>
+</nav>
+<br>
+      
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <center>
+      <img width="820" src="./sources/landing.png" >
+    </center>
+
+    <br>
+    <br>
+
+<center>
+
+      <h1 style="font-size: 45px;">Invest in everything</h1>
+      <br>
+      <h5 style="font-size: 20px; letter-spacing: 1px; ">Online platform to invest in stocks, derivatives, mutual funds, and more</h5>
+
+
+</center>
+
+<div style="margin-top: 50px; text-align: center; margin-left: 400px; margin-right: 400px; background-color: aliceblue;">
+  <h2 style="text-decoration: underline;">EMI Calculator</h2>
+  <form id="emiForm">
+    <label for="loanAmount">Loan Amount:</label>
+    <input style="height: 30px;" type="number" id="loanAmount" name="loanAmount" required><br><br>
+
+    <label for="interestRate">Interest Rate (%):</label>
+    <input style="height: 30px;" type="number" id="interestRate" name="interestRate" required><br><br>
+
+    <label for="loanTenure">Loan Tenure (months):</label>
+    <input style="height: 30px;" type="number" id="loanTenure" name="loanTenure" required><br><br>
+
+    <button type="button" onclick="calculateEMI()">Calculate EMI</button>
+      <br><br>
+          <div style="margin-top: 0;" id="emiResult"></div>
+  </form>
+</div>
+
+<br><br><br>
+
+
+</body>
+</html>

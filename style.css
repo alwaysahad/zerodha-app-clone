@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Work+Sans&display=swap');
+
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+  font-family: Inter;
+}
+
+.navitm{
+  padding-left: 150px;
+  padding-top: 25px;
+}
+
+button{
+  padding: 8px 30px;
+  border: none;
+  background-color: rgb(29, 155, 205);
+  border-radius: 3px;
+  transition: all 0.2s ease 0s;
+}
+
+button:hover {
+  background-color: grey;
+}
+
+#emiForm {
+      text-align: center;
+      margin: 50px auto;
+      margin-top: 15px;
+      padding: 20px;
+      max-width: 400px;
+    }
+
+#emiResult {
+      margin-top: 10px;
+      font-weight: bold;
+    }
